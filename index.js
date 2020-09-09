@@ -1,1 +1,1 @@
-console.log('hello world')
+console.log('From B2')
