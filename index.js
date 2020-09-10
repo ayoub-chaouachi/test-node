@@ -1,0 +1,17 @@
+const{Animal} = require ("./classes/animal")
+const{Bird} = require ("./classes/bird")
+const{Fish} = require ("./classes/fish")
+const{Plant} = require ("./classes/plant")
+const{Flower} = require ("./classes/flower")
+const a = new Animal("animal")
+const b = new Bird("parrot")
+const f = new Fish("ariel")
+const p = new Plant()
+const fl = new Flower("red",0.2)
+b.fly()
+b.eat(2)
+f.swim()
+a.eat()
+fl.smells()
+
+
